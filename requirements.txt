@@ -1,5 +1,6 @@
 tesseract
 easyocr
+pytesseract
 
 
 streamlit
