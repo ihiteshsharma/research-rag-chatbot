@@ -1,9 +1,10 @@
 import requests
 import json
 import anthropic
+import os
 
 # Initialize the Anthropic client
-client = anthropic.Anthropic(api_key="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")
+client = anthropic.Anthropic(api_key=os.environ['ANTHROPIC_API_KEY'])
 
 
 def generate_with_ollama(prompt, model="mistral:7b-instruct-q4_K_M", stream=True):

@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 os.environ["TOKENIZERS_PARALLELISM"] = "false"  # Suppress tokenizers warning
 
 import streamlit as st
