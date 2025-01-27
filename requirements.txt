@@ -1,0 +1,17 @@
+tesseract
+easyocr
+
+
+streamlit
+pymupdf
+pdfplumber
+sentence-transformers
+faiss-cpu
+matplotlib
+plotly
+requests
+pandas
+numpy
+pytesseract
+pillow
+torch
