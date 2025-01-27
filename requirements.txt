@@ -15,3 +15,5 @@ numpy
 pytesseract
 pillow
 torch
+anthropic
+dotenv
