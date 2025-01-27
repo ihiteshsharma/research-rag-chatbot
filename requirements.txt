@@ -16,4 +16,4 @@ pytesseract
 pillow
 torch
 anthropic
-dotenv
+python-dotenv
